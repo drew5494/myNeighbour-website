@@ -13,6 +13,10 @@
     "serve:dist": "http-server _site",
     "clean:project": "rimraf ./_site ./assets"
   },
+  {
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "devDependencies": {
     "@babel/core": "^7.15.5",
     "@babel/preset-env": "^7.15.6",
